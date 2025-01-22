@@ -52,11 +52,11 @@
   }
 
   .tag {
-    @apply bg-secondary px-6 py-3  font-bold rounded-sm uppercase relative tag-tri;
+    @apply bg-secondary px-6 py-3 font-work-sans font-bold rounded-sm uppercase relative tag-tri;
   }
 
   .heading {
-    @apply uppercase bg-black px-6 py-3  font-extrabold text-white text-[24px] sm:text-[54px] md:text-[48px] lg:text-[34px] xl:text-[42px] sm:leading-[64px] leading-[46px] w-full text-center mb-5;
+    @apply uppercase bg-black px-6 py-3 font-work-sans font-extrabold text-white sm:text-[54px] sm:leading-[64px] text-[36px] leading-[46px] max-w-5xl text-center my-5;
   }
 
   .sub-heading {
@@ -115,7 +115,7 @@
   }
 
   .login {
-    @apply border-[5px] py-4 border-black bg-white text-black relative shadow-100  font-medium hover:shadow-none transition-all duration-500 !important;
+    @apply border-[5px] py-4 border-black bg-white text-black relative shadow-100 font-work-sans font-medium hover:shadow-none transition-all duration-500 !important;
   }
 
   /* searchform */
@@ -145,7 +145,7 @@
   }
 
   .startup-card_img {
-    @apply w-full h-[164px] rounded-[10px] object-cover;
+    @apply w-full h-[200px] rounded-[10px] object-cover;
   }
 
   .startup-card_btn {
